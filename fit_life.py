@@ -12,8 +12,7 @@ user_weight = float(input("Введите ваш вес (кг): "))
 
 user_height = float(input("Введите ваш рост (м): "))
 
-bmi = user_weight / (user_height ** 2)
-bmi = round(bmi, 1)
+bmi = round(user_weight / (user_height ** 2), 1)
 
 water_ml = user_weight * 30
 water_l = water_ml / 1000
